@@ -408,13 +408,21 @@ section .button button:hover {
     margin: 0 auto;
     padding: 30px 0;
 }
-
-.contact .text {
-    width: 80%;
-    text-align: center;
-    margin: auto;
+.contact-form .inp {
+    margin: 16px 0;
+    font-size: 20px;
 }
-
+input.input-element {
+    font-size: 21px;
+    width: 40vw;
+    border-radius: 5px;
+    border: 2px solid var(--black-color);
+}
+.outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Footer Section Styling */
 footer {
     background: var(--black-color);
@@ -429,7 +437,6 @@ footer .text span {
     font-size: 17px;
     font-weight: 400;
     color: var(--white-color);
-    border-bottom: 1px solid #666;
     padding: 10px;
 }
 
@@ -502,12 +509,24 @@ footer .media-icons a:hover {
         margin: 20px 0;
         width: calc(100% /2 - 20px);
     }
+    input.input-element {
+        font-size: 21px;
+        width: 60vw;
+        border-radius: 5px;
+        border: 2px solid var(--black-color);
+    }
 }
 
 @media (max-width:900px) {
     .about .left img {
         height: 350px;
         width: 350px;
+    }
+    input.input-element {
+        font-size: 21px;
+        width: 65vw;
+        border-radius: 5px;
+        border: 2px solid var(--black-color);
     }
 }
 
@@ -601,6 +620,12 @@ footer .media-icons a:hover {
     .skills-details .boxes .per {
         font-size: 50px;
         color: var(--primary-color);
+    }
+    input.input-element {
+        font-size: 21px;
+        width: 85vw;
+        border-radius: 5px;
+        border: 2px solid var(--black-color);
     }
     footer .content{
         margin: 0 10px;
