@@ -408,13 +408,19 @@ section .button button:hover {
     margin: 0 auto;
     padding: 30px 0;
 }
-
-.contact .text {
-    width: 80%;
-    text-align: center;
-    margin: auto;
+.contact-form .inp {
+    margin: 16px 0;
 }
-
+input.input-element {
+    font-size: 21px;
+    width: 40vw;
+    border-radius: 5px;
+}
+.outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Footer Section Styling */
 footer {
     background: var(--black-color);
