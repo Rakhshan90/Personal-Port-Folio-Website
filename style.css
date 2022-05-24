@@ -10,8 +10,8 @@
 }
 
 :root {
-    /* --primary-color: #dc143c; */
-    --primary-color: #034844;
+    --primary-color: #dc143c;
+    /* --primary-color: #034844; */
     --white-color: #fff;
     --black-color: #0e2431;
 }
@@ -131,7 +131,7 @@ nav.sticky .menu-btn {
 .home {
     height: 100vh;
     width: 100%;
-    background: url("Images/Hero-banner.png") no-repeat;
+    background: url("Images/cool-background.png") no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
